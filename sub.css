@@ -1,0 +1,1224 @@
+*{padding: 0; margin: 0;}
+
+#header {
+    position: relative;
+    transition: all linear;
+}
+
+#header.outt {
+    opacity: 0;
+}
+
+#header.closee {
+    opacity: 0;
+}
+
+.menu {
+    position : absolute;
+    right: 55px;
+    top: 55px;
+    cursor: pointer;
+    margin: 0 auto;
+    padding-left: 1.25em;
+    width: 16px;
+    height: 16px;
+    z-index: 12000;
+    opacity: 1;
+}
+
+.menu.out {
+    opacity: 0;
+}
+
+.menu.outtt {
+    opacity: 0;
+}
+
+.menu-global {
+    backface-visibility: hidden;
+    position: absolute;
+    left: 0;
+    border-top: 3.5px solid #383838;
+    width: 100%;
+    transition: 0.55s;
+}
+.menu-top {
+    top: 0;
+    width: 35px;
+}
+.menu-middle {
+    top: 10px;
+}
+.menu-bottom {
+    top: 20px;
+}
+.menu-top-click {
+    backface-visibility: hidden;
+    top: 12px;
+    transform: rotate(50deg);
+    transition: 0.55s 0.5s;
+}
+.menu-middle-click {
+    opacity: 0;
+}
+.menu-bottom-click {
+    backface-visibility: hidden;
+    top: 12px;
+    transform: rotate(-410deg);
+    transition: 0.55s 0.5s;
+    /*transition: 0.55s 0.5s;*/
+}
+
+#menu {
+    width: 100%;
+    height: 100%;
+    background: #ffed25;
+    position : fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity : 0;
+}
+
+#menu.visible {
+    visibility: visible;
+    opacity : 1;
+    transition: opacity 0.8s;
+}
+
+#logo {
+    width: 106px;
+    height: 76px;
+    position: fixed;
+    top: 35px;
+    left: 40px;
+    z-index: 900;
+    background: url("../images/common/header/logo.png") no-repeat;
+}
+
+
+/*-----------------------------------------------------------------------*/
+
+#logo {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+
+#text {
+    position: absolute;
+    left: 50%;
+    top: 117px;
+    background: #ffed25;
+    transform: translate(-50%);
+}
+
+#sns_icon_01 {
+    position: absolute;
+    left: 79px;
+    bottom: 69px;
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transition: all 1s ease-in-out;
+}
+
+#sns_icon_01:hover {
+    position: absolute;
+    left: 79px;
+    bottom: 69px;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#sns_icon_02 {
+    position: absolute;
+    left: 117px;
+    bottom: 69px;
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transition: all 1s ease-in-out;
+}
+
+#sns_icon_02:hover {
+    position: absolute;
+    left: 117px;
+    bottom: 69px;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#sns_icon_03 {
+    position: absolute;
+    left: 155px;
+    bottom: 69px;
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transition: all 1s ease-in-out;
+}
+
+#sns_icon_03:hover {
+    position: absolute;
+    left: 155px;
+    bottom: 69px;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#sns_icon_04 {
+    position: absolute;
+    left: 188px;
+    bottom: 69px;
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transition: all 1s ease-in-out;
+}
+
+#sns_icon_04:hover {
+    position: absolute;
+    left: 188px;
+    bottom: 69px;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#reve_menu {
+    position: absolute;
+    right: 113px;
+    bottom: 64px;
+}
+
+.menu2 {
+    position: absolute;
+    left: 337px;
+}
+
+.menu2 > li {
+    float: left;
+    height: 39px;
+    /*margin-right: 10px;*/
+}
+
+
+#text_black_01 {
+    position: absolute;
+    top: 240px;
+}
+
+
+#text_black_02 {
+    position: absolute;
+    top: 365px;
+}
+
+#text_black_03 {
+    position: absolute;
+    top: 490px;
+}
+
+#text_black_04 {
+    position: absolute;
+    top: 615px;
+}
+
+#text_black_05 {
+    position: absolute;
+    top: 740px;
+}
+
+#fullpage > section {
+    height: 980px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+}
+
+/*서브메뉴*/
+
+#sub_menu {
+    position: fixed;
+    left: 63px;
+    z-index: 600;
+    display: block;
+    transition: all linear;
+}
+
+#sub_small > li {
+    list-style:none;
+}
+
+#sub_menu.out {
+    opacity: 0;
+}
+
+#sub_menu.close {
+    opacity: 0;
+}
+
+#menu_title_00 {
+    position: fixed;
+    top: 235px;
+    left: 63px;
+}
+
+#sub_menu01 {
+    position: fixed;
+    z-index: 700;
+    top: 608px;
+    left: 63px;
+    transition: all 0.5s linear;
+}
+#sub_menu01.on {
+    transform: translateY(-250px);
+}
+
+#sub_menu02 {
+    position: fixed;
+    z-index: 9997;
+    top: 688px;
+    left: 63px;
+    transition: all 0.5s linear;
+}
+
+#sub_menu02.on {
+    transform: translateY(-260px);
+}
+
+#sub_menu03 {
+    position: fixed;
+    z-index: 700;
+    top: 766px;
+    left: 63px;
+    transition: all 0.5s linear;
+    /*background: url("../images/main/zimzalbim/music_video_03.png")no-repeat;*/
+}
+
+#sub_menu03.on {
+    transform: translateY(-265px);
+}
+
+#sub_menu04 {
+    position: fixed;
+    z-index: 700;
+    top: 843px;
+    left: 63px;
+    transition: all 0.5s linear;
+}
+
+#sub_menu04.on {
+    transform: translateY(-270px);
+}
+
+
+/*상단첫시작*/
+
+#section01 {
+    width: 1920px;
+    height: 980px;
+    background: #fff369;
+    position: relative;
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    left: 0;
+    bottom: 0;
+    z-index: 500;
+    /*background: url("../images/main/zimzalbim/top_main.jpg") no-repeat;*/
+}
+
+
+#section01 .cir_img {
+    position: absolute;
+    z-index: 999999;
+    width: 1920px;
+    height: 980px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff369;
+    clip-path: circle(5px at 2200px 300px);
+    background: url("../images/main/zimzalbim/top_main_01.png")no-repeat center;
+    opacity: 0;
+}
+
+#section01 .cir_img.on {
+    clip-path: none;
+    animation: ani07 linear 2s;
+    opacity: 1;
+}
+
+#section01 .cir_img #scroll_down {
+    position: absolute;
+    left: 904px;
+    top: 648px;
+    /*transform: translate(-50%);*/
+    animation: rotate 5.5s linear infinite;
+}
+
+@keyframes rotate {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+
+#section01 .cir_img > img {
+    position : absolute;
+    left: 0;
+    top: 0;
+
+}
+
+#section01 .cir_img .frame {
+    width: 100%;
+    height: 100%;
+    transition: all 0.7s;
+    opacity : 1;
+    clip-path: circle(5px at 2200px 300px);
+}
+
+#section01 .cir_img .frame.on {
+    opacity : 0;
+}
+
+#section01 .cir_img > img:nth-child(2){
+    position : absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all linear 0.35s;
+}
+
+#section01 .cir_img > img:nth-child(2).on {
+    opacity: 1;
+}
+
+@keyframes ani07 {
+    0% {
+        clip-path: circle(5px at 920px 520px);
+        opacity: 0;
+    }
+    1% {opacity: 1;}
+
+    100% {
+        clip-path: circle(2100px at 1100px 400px);
+        /*clip-path: circle(2500px at 1200px 500px);*/
+    }
+}
+
+/*앨범소개*/
+
+#section02 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalbim_bg_01.jpg") no-repeat;
+}
+
+#wish {
+    width: 58px;
+    height: 185px;
+    position: absolute;
+    left: 460px;
+    z-index: 600;
+    top: 373px;
+    background: url("../images/main/zimzalbim/wish_text.png")no-repeat;
+    opacity : 0;
+    transition: all 0.7s;
+    transition-delay: 0.3s;
+}
+
+
+#wish.on {
+    opacity : 1;
+}
+
+#album_photo02 {
+    position: absolute;
+    right: 575px;
+    top: 210px;
+    z-index: 600;
+    opacity : 0;
+    transition: all 0.7s;
+    transition-delay: 0.1s;
+}
+
+#album_photo02.on {
+    opacity: 1;
+}
+
+#reve {
+    width: 95px;
+    height: 232px;
+    position: absolute;
+    right: 440px;
+    top: 289px;
+    z-index: 600;
+    background: url("../images/main/zimzalbim/reve_Zimzalabim.png")no-repeat;
+    opacity : 0;
+    transition: all 0.7s;
+    transition-delay: 0.6s;
+}
+
+#reve.on {
+    opacity : 1;
+}
+
+#title_01 {
+    width: 314px;
+    height: 29px;
+    position: absolute;
+    right: 234px;
+    top: 578px;
+    background: url("../images/main/zimzalbim/Zimzalabim_title_02.png")no-repeat;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.9s;
+}
+
+#title_01.on {
+    opacity: 1;
+}
+
+#text01 {
+    width: 469px;
+    height: 91px;
+    position: absolute;
+    right: 62px;
+    top: 655px;
+    background: url("../images/main/zimzalbim/Zimzalabim_text_01.png")no-repeat;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.1s;
+}
+
+#text01.on {
+    opacity: 1;
+}
+
+#text02 {
+    width: 897px;
+    height: 92px;
+    position: absolute;
+    right: 62px;
+    top: 774px;
+    background: url("../images/main/zimzalbim/Zimzalabim_text_03.png")no-repeat;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.1s;
+}
+
+#text02.on {
+    opacity: 1;
+}
+/*트랙1*/
+
+#section03 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    left: 0;
+    bottom: 0;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalbim_bg_02.jpg");
+}
+
+#title_02 {
+    width: 119px;
+    height: 29px;
+    position: absolute;
+    left: 469px;
+    top: 197px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.1s;
+    background: url("../images/main/zimzalbim/Zimzalabim_title_02_1.png")no-repeat;
+}
+
+#title_02.on {
+    opacity: 1;
+}
+
+#text04 {
+    width: 646px;
+    height: 414px;
+    position: absolute;
+    left: 490px;
+    top: 395px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.7s;
+    background: url("../images/main/zimzalbim/Zimzalabim_text_04.png")no-repeat;
+}
+
+#text04.on {
+    opacity: 1;
+}
+
+#album_photo03 {
+    position: absolute;
+    right: 135px;
+    top: 79px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.1s;
+}
+
+#album_photo03.on {
+    opacity: 1;
+}
+
+
+
+#zimzlabim_text {
+    width: 57px;
+    height: 447px;
+    position: absolute;
+    right: 56px;
+    top: 266px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.3s;
+    background: url("../images/main/zimzalbim/Zimzalabim_text.png")no-repeat;
+}
+
+#zimzlabim_text.on {
+    opacity: 1;
+}
+
+#zimzlabim_text_06 {
+    width: 664px;
+    height: 58px;
+    position: absolute;
+    left: 489px;
+    top: 290px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.5s;
+    background: url("../images/main/zimzalbim/Zimzalabim_text_06.png")no-repeat;
+}
+
+#zimzlabim_text_06.on {
+    opacity: 1;
+}
+
+/*트랙2*/
+
+#section04 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: url("../images/main/zimzalbim/zimzalbim_bg_03.jpg") no-repeat;
+}
+
+#section04 .sound_btn {
+    width: 64px;
+    height: 64px;
+    position : absolute;
+    right: 250px;
+    top: 520px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.5s;
+    cursor: pointer;
+}
+
+#section04 .sound_btn.on {
+    opacity: 1;
+}
+
+#section04 .sound_btn > img{
+    position : absolute;
+    left: 0;
+    top: 0;
+}
+
+#section04 .sound_btn > img:nth-child(1){
+    display: none;
+}
+
+
+#title_03 {
+    width: 262px;
+    height: 93px;
+    position: absolute;
+    left: 580px;
+    top: 234px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.2s;
+    background: url("../images/main/zimzalbim/Zimzalabim_title_03.png")no-repeat;
+}
+
+#title_03.on {
+    opacity: 1;
+}
+
+#redvelvet_text {
+    width: 119px;
+    height: 19px;
+    position: absolute;
+    left: 605px;
+    top: 346px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.2s;
+    background: url("../images/main/zimzalbim/red_velvet_text_01.png")no-repeat;
+}
+
+#redvelvet_text.on {
+    opacity: 1;
+}
+
+#track_list {
+    width: 76px;
+    height: 15px;
+    position: absolute;
+    left: 605px;
+    top: 449px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1s;
+    background: url("../images/main/zimzalbim/tracklist_01.png")no-repeat;
+}
+
+#track_list.on {
+    opacity: 1;
+}
+
+#section04 .music {
+    list-style: none;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.2s;
+    cursor: pointer;
+}
+
+#section04 .music.on {
+    opacity: 1;
+}
+
+#music_01 {
+    width: 195px;
+    height: 18px;
+    position: absolute;
+    left: 605px;
+    top: 501px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalabim_music_01.png") no-repeat;
+}
+
+#music_01.ch {
+    width: 195px;
+    height: 18px;
+    background: url("../images/main/zimzalbim/zimzalabim_music_01_1.png") no-repeat;
+}
+
+#music_02 {
+    width: 143px;
+    height: 18px;
+    position: absolute;
+    left: 605px;
+    top: 538px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalabim_music_02.png")no-repeat;
+}
+
+#music_03 {
+    width: 104px;
+    height: 14px;
+    position: absolute;
+    left: 605px;
+    top: 574px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalabim_music_03.png")no-repeat;
+}
+
+#music_04 {
+    width: 206px;
+    height: 19px;
+    position: absolute;
+    left: 605px;
+    top: 609px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalabim_music_04.png")no-repeat;
+}
+
+#music_05 {
+    width: 173px;
+    height: 19px;
+    position: absolute;
+    left: 605px;
+    top: 645px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalabim_music_05.png")no-repeat;
+}
+
+#music_06 {
+    width: 44px;
+    height: 14px;
+    position: absolute;
+    left: 605px;
+    top: 682px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalabim_music_06.png")no-repeat;
+}
+
+#day {
+    width: 141px;
+    height: 25px;
+    position: absolute;
+    right: 174px;
+    top: 410px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.3s;
+    background: url("../images/main/zimzalbim/zimzalabim_day.png")no-repeat;
+}
+
+#day.on {
+    opacity: 1;
+}
+
+#mini_album {
+    width: 88px;
+    height: 14px;
+    position: absolute;
+    right: 227px;
+    top: 453px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.3s;
+    background: url("../images/main/zimzalbim/mini_album_01.png")no-repeat;
+}
+
+#mini_album.on {
+    opacity: 1;
+}
+
+#melon_btn {
+    position: absolute;
+    right: 165px;
+    top: 507px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.3s;
+}
+
+#melon_btn.on {
+    opacity: 1;
+}
+
+#genie_btn {
+    position: absolute;
+    right: 165px;
+    top: 545px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.3s;
+}
+
+#genie_btn.on {
+    opacity: 1;
+}
+
+#bugs_btn {
+    position: absolute;
+    right: 147px;
+    top: 578px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.3s;
+}
+
+#bugs_btn.on {
+    opacity: 1;
+}
+
+#order_btn {
+    position: absolute;
+    right: 67px;
+    top: 664px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.7s;
+    z-index: 500;
+}
+
+#order_btn.on {
+    opacity: 1;
+}
+
+#music_btn {
+    position: absolute;
+    right: 250px;
+    top: 523px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.5s;
+    z-index: 500;
+}
+
+#music_btn.on {
+    opacity: 1;
+}
+
+
+#music_btn_play {
+    position: absolute;
+    right: 250px;
+    top: 523px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.5s;
+    z-index: 500;
+}
+
+#music_btn_play.on {
+    opacity: 1;
+}
+
+/*뮤직비디오*/
+
+#section05 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: url("../images/main/zimzalbim/zimzalbim_bg_04.jpg") no-repeat;
+}
+
+#title_04 {
+    position: absolute;
+    left: 469px;
+    top: 205px;
+    /*bottom: 742px;*/
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.2s;
+}
+
+#title_04.on {
+    opacity: 1;
+}
+
+.mv {
+    width: 1135px;
+    height: 638px;
+    position: absolute;
+    left: 649px;
+    /*top: 292px;*/
+    bottom: 55px;
+    z-index: 1200;
+    overflow: hidden;
+}
+
+#mv_scroll_red {
+    width: 250px;
+    height: 248px;
+    position: absolute;
+    z-index: 1000;
+    left: 443px;
+    top: 195px;
+    list-style: none;
+    animation: rotate 6s linear infinite;
+}
+
+@keyframes rotate {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg )}
+}
+
+#scroll_btn {
+    position: absolute;
+    left: 544px;
+    top: 283px;
+    cursor: pointer;
+    z-index: 1100;
+    transition: all 0.2s linear;
+}
+
+
+#mv_left {
+    width: 568px;
+    height: 638px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../images/main/zimzalbim/mv_left_01.png")no-repeat left top;
+    transition: width 1s;
+}
+
+#mv_left.on {
+    width: 0;
+}
+
+
+#mv_right {
+    width: 568px;
+    height: 638px;
+    background: url("../images/main/zimzalbim/mv_right_01.png")no-repeat right top;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 800;
+    transition: width 1s;
+}
+
+#mv_right.on {
+    width: 0;
+}
+
+
+
+/*갤러리*/
+
+#section06 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*background: green;*/
+    /*transform: translate(-50%, -50%);*/
+    left: 0;
+    bottom: 0;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalbim_bg_05.jpg") no-repeat;
+}
+
+#title_05 {
+    position: absolute;
+    left: 470px;
+    top: 202px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.2s;
+}
+
+#title_05.on {
+    opacity: 1;
+}
+
+/*#section06 .g_btn {*/
+/*    position: absolute;*/
+/*    z-index: 1200;*/
+/*}*/
+
+#section06 .g_btn > li {
+    list-style: none;
+}
+
+#gallery_btn_left {
+    position: absolute;
+    left: 651px;
+    top: 880px;
+    z-index: 500;
+    cursor : pointer;
+    transition: all 1s linear;
+}
+
+#gallery_btn_right {
+    position: absolute;
+    left: 713px;
+    top: 880px;
+    z-index: 800;
+    cursor : pointer;
+    transition: all 1s linear;
+}
+
+/*#gallery_btn_right_02.slick-arrow {*/
+/*    transform: translate(0);*/
+/*}*/
+
+#gelley {
+    width: 1500px;
+    height: 552px;
+    position: absolute;
+    z-index: 500;
+    left: 651px;
+    top: 289px;
+}
+
+#gelley .slick-slide {
+    margin-left: 18px; !important;
+    transition: all 1s linear;
+    border: none; !important;
+    outline: none;
+}
+
+#gelley .slick-slide.slick-current{
+    opacity : 1;
+    border: none; !important;
+    outline: none;
+}
+
+#gelley .slick-dots {}
+#gelley .slick-dots li {}
+#gelley .slick-dots li button{
+    display: none;
+}
+
+#hold_drag_line_01 {
+    position: absolute;
+    left: 791px;
+    top: 889px;
+    z-index: 500;
+}
+
+#hold_drag_line_02 {
+    position: absolute;
+    left: 791px;
+    top: 889px;
+    z-index: 500;
+}
+
+#section06 .line {
+    width: 1050px;
+    height: 1.5px;
+    background: #7e7e7e;
+    position : absolute;
+    top: 889px;
+    left: 791px;
+}
+
+#section06 .line .bar {
+    width: 105px;
+    height: 1.5px;
+    background: #ff0000;
+}
+
+#hold_drag {
+    position: absolute;
+    left: 492px;
+    top: 497px;
+    z-index: 500;
+    animation: rotate 5.5s linear infinite;
+}
+
+@keyframes rotate {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg )}
+}
+
+
+/*레브풍선*/
+.slide_wrap .reve_ballon {
+    position: absolute;
+    left: 136px;
+    bottom: 127px;
+    z-index: 400;
+    animation-name: ballon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    transform: translatey(120px);
+    transition: all 1.7s;
+}
+
+.slide_wrap.on .reve_ballon {
+    transform: translatey(0);
+    opacity: 1;
+}
+
+@keyframes ballon {
+    0%   {background-image: url("../images/main/reve_ballon.png"); left:136px; bottom:127px;}
+    25%  {background-image: url("../images/main/reve_ballon.png"); left:136px; bottom:100px;}
+    50%  {background-image: url("../images/main/reve_ballon.png"); left:136px; bottom:127px;}
+    75%  {background-image: url("../images/main/reve_ballon.png"); left:136px; bottom:95px;}
+    100% {background-image: url("../images/main/reve_ballon.png"); left:136px; bottom:127px;}
+}
+
+#space_ship {
+    position: absolute;
+    left: 60px;
+    top: 766px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.6s;
+    z-index: 500;
+}
+
+#space_ship.on {
+    opacity: 1;
+}
+
+/*마지막 사진*/
+#section07 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background: url("../images/main/zimzalbim/footer_bg.jpg") no-repeat;
+}
+
+/*#footer,*/
+/*#footer .fp-tableCell {*/
+/*    height: 160px !important;*/
+/*    background: gray;*/
+/*}*/

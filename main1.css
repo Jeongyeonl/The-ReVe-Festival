@@ -1,0 +1,541 @@
+
+
+
+#menu {
+    width: 100%;
+    height: 100%;
+    position : fixed;
+    left: 0;
+    top : 0;
+    z-index: 9999;
+}
+
+#menu .inner {
+    width: 1920px;
+    height: 980px;
+    position : absolute;
+    left: 0;
+    top: 0;
+    /*background: black;*/
+}
+
+
+
+
+#fullpage > section {
+    height: 980px;
+}
+
+#main_bg_01 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -960px;
+    margin-top: -490px;
+    z-index: 500;
+}
+
+#wish {
+    width: 58px;
+    height: 185px;
+    position: absolute;
+    left: 465px;
+    z-index: 600;
+    top: 373px;
+    background: url("../images/main/zimzalbim/wish_text.png")no-repeat;
+}
+
+#reve {
+    width: 95px;
+    height: 232px;
+    position: absolute;
+    right: 440px;
+    top: 289px;
+    z-index: 600;
+    background: url("../images/main/zimzalbim/reve_Zimzalabim.png")no-repeat;
+}
+
+#title_01 {
+    width: 314px;
+    height: 29px;
+    position: absolute;
+    right: 234px;
+    top: 578px;
+    background: url("../images/main/zimzalbim/Zimzalabim_title_02.png")no-repeat;
+}
+
+#text01 {
+    width: 469px;
+    height: 91px;
+    position: absolute;
+    right: 62px;
+    top: 655px;
+    background: url("../images/main/zimzalbim/Zimzalabim_text_01.png")no-repeat;
+}
+
+#text02 {
+    width: 897px;
+    height: 92px;
+    position: absolute;
+    right: 62px;
+    top: 774px;
+    background: url("../images/main/zimzalbim/Zimzalabim_text_02.png")no-repeat;
+}
+
+#sub_menu {
+    /*width: 400px;*/
+    /*height: 700px;*/
+    /*background: red;*/
+    position: fixed;
+    top: 0;
+    left: 63px;
+    z-index: 600;
+}
+
+#sub_menu_title {
+    width: 282px;
+    height: 41px;
+    position: absolute;
+    left: 63px;
+    top: 235px;
+    z-index: 700;
+    background: url("../images/main/zimzalbim/menu_titel_01.png")no-repeat;
+}
+
+#sub_menu01 {
+    width: 206px;
+    height: 16px;
+    position: absolute;
+    z-index: 700;
+    top: 357px;
+    left: 63px;
+    background: url("../images/main/zimzalbim/Album-Introduce_01.png")no-repeat;
+}
+
+#sub_menu02 {
+    width: 112px;
+    height: 16px;
+    position: absolute;
+    z-index: 700;
+    top: 696px;
+    left: 63px;
+    background: url("../images/main/zimzalbim/Track_02.png")no-repeat;
+}
+
+#sub_menu03 {
+    width: 167px;
+    height: 16px;
+    position: absolute;
+    z-index: 700;
+    top: 769px;
+    left: 63px;
+    background: url("../images/main/zimzalbim/music_video_03.png")no-repeat;
+}
+
+#sub_menu04 {
+    width: 128px;
+    height: 20px;
+    position: absolute;
+    z-index: 700;
+    top: 843px;
+    left: 63px;
+    background: url("../images/main/zimzalbim/gallery_04.png")no-repeat;
+}
+
+
+#section01 {
+    background: tomato;
+}
+
+#section02 {
+    background: orange;
+}
+
+#main_bg_02 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -960px;
+    margin-top: -490px;
+}
+
+#section03 {
+    background: yellow;
+}
+
+
+#main_bg_03 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -960px;
+    margin-top: -490px;
+    z-index: 500;
+}
+
+#title_02 {
+    width: 119px;
+    height: 29px;
+    position: absolute;
+    left: 469px;
+    top: 197px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/Zimzalabim_title_02_1.png")no-repeat;
+}
+
+#text03 {
+    width: 664px;
+    height: 58px;
+    position: absolute;
+    left: 490px;
+    top: 290px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/Zimzalabim_text_03.png")no-repeat;
+}
+
+#text04 {
+    width: 646px;
+    height: 414px;
+    position: absolute;
+    left: 490px;
+    top: 395px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/Zimzalabim_text_04.png")no-repeat;
+}
+
+#zimzlabim_text {
+    width: 57px;
+    height: 447px;
+    position: absolute;
+    right: 56px;
+    top: 266px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/Zimzalabim_text.png")no-repeat;
+}
+
+#section04 {
+    background: green ;
+}
+
+#main_bg_04 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -960px;
+    margin-top: -490px;
+    z-index: 500;
+}
+
+#title_03 {
+    width: 262px;
+    height: 93px;
+    position: absolute;
+    left: 583px;
+    top: 234px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/Zimzalabim_title_03.png")no-repeat;
+}
+
+#redvelvet_text {
+    width: 119px;
+    height: 19px;
+    position: absolute;
+    left: 605px;
+    top: 346px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/red_velvet_text_01.png")no-repeat;
+}
+
+#track_list {
+    width: 76px;
+    height: 15px;
+    position: absolute;
+    left: 605px;
+    top: 449px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/tracklist_01.png")no-repeat;
+}
+
+#music_01 {
+    width: 195px;
+    height: 18px;
+    position: absolute;
+    left: 605px;
+    top: 501px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalabim_music_01.png")no-repeat;
+}
+
+#music_02 {
+    width: 143px;
+    height: 18px;
+    position: absolute;
+    left: 605px;
+    top: 538px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalabim_music_02.png")no-repeat;
+}
+
+#music_03 {
+    width: 104px;
+    height: 14px;
+    position: absolute;
+    left: 605px;
+    top: 574px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalabim_music_03.png")no-repeat;
+}
+
+#music_04 {
+    width: 206px;
+    height: 19px;
+    position: absolute;
+    left: 605px;
+    top: 609px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalabim_music_04.png")no-repeat;
+}
+
+#music_05 {
+    width: 173px;
+    height: 19px;
+    position: absolute;
+    left: 605px;
+    top: 645px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalabim_music_05.png")no-repeat;
+}
+
+#music_06 {
+    width: 44px;
+    height: 14px;
+    position: absolute;
+    left: 605px;
+    top: 682px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalabim_music_06.png")no-repeat;
+}
+
+#day {
+    width: 141px;
+    height: 25px;
+    position: absolute;
+    right: 174px;
+    top: 410px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/zimzalabim_day.png")no-repeat;
+}
+
+#mini_album {
+    width: 88px;
+    height: 14px;
+    position: absolute;
+    right: 227px;
+    top: 453px;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/mini_album_01.png")no-repeat;
+}
+
+#melon_btn {
+    position: absolute;
+    right: 165px;
+    top: 507px;
+    z-index: 500;
+}
+
+#genie_btn {
+    position: absolute;
+    right: 165px;
+    top: 545px;
+    z-index: 500;
+}
+
+#bugs_btn {
+    position: absolute;
+    right: 147px;
+    top: 578px;
+    z-index: 500;
+}
+
+#order_btn {
+    position: absolute;
+    right: 67px;
+    top: 664px;
+    z-index: 500;
+}
+
+#music_btn {
+    position: absolute;
+    right: 250px;
+    top: 523px;
+    z-index: 500;
+}
+
+#section05 {
+    background: dodgerblue;
+}
+
+#main_bg_05 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -960px;
+    margin-top: -490px;
+    z-index: 500;
+}
+
+#title_04 {
+    position: absolute;
+    left: 469px;
+    top: 205px;
+    z-index: 500;
+}
+
+#mv {
+    position: relative;
+    left: 649px;
+    top: 292px;
+    z-index: 9999;
+}
+
+#mv_scroll {
+    position: absolute;
+    z-index: 500;
+    /*left: 443px;*/
+    left: 300px;
+    top: 195px;
+}
+
+#mv_scroll_red {
+    position: absolute;
+    z-index: 500;
+    /*left: 443px;*/
+    left: 300px;
+    top: 195px;
+}
+
+#mv_left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#mv_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 800;
+}
+
+#section06 {}
+
+#main_bg_06 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -960px;
+    margin-top: -490px;
+    z-index: 500;
+}
+
+#title_05 {
+    position: absolute;
+    left: 470px;
+    top: 202px;
+    z-index: 500;
+}
+
+#gallery_btn_left_01 {
+    position: absolute;
+    left: 651px;
+    top: 880px;
+    z-index: 500;
+}
+
+#gallery_btn_right_02 {
+    position: absolute;
+    left: 713px;
+    top: 880px;
+    z-index: 800;
+}
+
+#gelley {
+    width: 3900px;
+    position: relative;
+    z-index: 500;
+    left: 651px;
+    top: 289px;
+}
+
+#gelley > img {
+    margin-left: 18px;
+}
+
+#gelley > img:nth-child(10) {
+    margin-right: 0;
+}
+
+#hold_drag_line {
+    position: absolute;
+    left: 791px;
+    top: 889px;
+    z-index: 500;
+}
+
+#hold_drag {
+    position: absolute;
+    left: 492px;
+    top: 497px;
+    z-index: 500;
+}
+
+#space_ship {
+    position : absolute;
+    left     : 60px;
+    top      : 766px;
+    z-index  : 500;
+}
+
+
+#fix01 {
+    /*height: 980px;*/
+    position: relative;
+    z-index: 9999;
+}
+
+#logo {
+    width: 106px;
+    height: 76px;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    background: url("../images/common/header/logo.png") no-repeat;
+}
+
+#menu {
+    width: 72px;
+    height: 22px;
+    position: absolute;
+    background: #1bd494;
+    right: 45px;
+    top: 65px;
+    background: url("../images/common/header/menu.png") no-repeat;
+}
+
+#footer,
+#footer .fp-tableCell {
+    height: 160px !important;
+    background: gray;
+}

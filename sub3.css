@@ -1,0 +1,1204 @@
+
+#header {
+    position: relative;
+    transition: all linear;
+}
+
+#header.outt {
+    opacity: 0;
+}
+
+#header.closee {
+    opacity: 0;
+}
+
+.menu {
+    position : absolute;
+    right: 55px;
+    top: 55px;
+    cursor: pointer;
+    margin: 0 auto;
+    padding-left: 1.25em;
+    width: 16px;
+    height: 16px;
+    z-index: 9999;
+    opacity: 1;
+}
+
+.menu.out {
+    opacity: 0;
+}
+
+.menu.outtt {
+    opacity: 0;
+}
+
+.menu-global {
+    backface-visibility: hidden;
+    position: absolute;
+    left: 0;
+    border-top: 3.5px solid #383838;
+    width: 100%;
+    transition: 0.55s;
+}
+.menu-top {
+    top: 0;
+    width: 35px;
+}
+.menu-middle {
+    top: 10px;
+}
+.menu-bottom {
+    top: 20px;
+}
+.menu-top-click {
+    backface-visibility: hidden;
+    top: 12px;
+    transform: rotate(50deg);
+    transition: 0.55s 0.5s;
+}
+.menu-middle-click {
+    opacity: 0;
+}
+.menu-bottom-click {
+    backface-visibility: hidden;
+    top: 12px;
+    transform: rotate(-410deg);
+    transition: 0.55s 0.5s;
+    /*transition: 0.55s 0.5s;*/
+}
+
+
+#menu {
+    width: 100%;
+    height: 100%;
+    background: #ffed25;
+    position : fixed;
+    left: 0;
+    top: 0;
+    z-index: 9000;
+    visibility: hidden;
+    opacity : 0;
+
+}
+
+#menu.visible {
+    visibility: visible;
+    opacity : 1;
+    transition: opacity 1.5s;
+}
+
+/*-----------------------------------------------------------------------*/
+
+#logo {
+    width: 106px;
+    height: 76px;
+    position: fixed;
+    top: 35px;
+    left: 40px;
+    z-index: 900;
+    background: url("../images/common/header/logo.png") no-repeat;
+}
+
+#text {
+    position: absolute;
+    left: 50%;
+    top: 117px;
+    background: #ffed25;
+    transform: translate(-50%);
+}
+
+#sns_icon_01 {
+    position: absolute;
+    left: 79px;
+    bottom: 69px;
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transition: all 1s ease-in-out;
+}
+
+#sns_icon_01:hover {
+    position: absolute;
+    left: 79px;
+    bottom: 69px;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#sns_icon_02 {
+    position: absolute;
+    left: 117px;
+    bottom: 69px;
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transition: all 1s ease-in-out;
+}
+
+#sns_icon_02:hover {
+    position: absolute;
+    left: 117px;
+    bottom: 69px;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#sns_icon_03 {
+    position: absolute;
+    left: 155px;
+    bottom: 69px;
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transition: all 1s ease-in-out;
+}
+
+#sns_icon_03:hover {
+    position: absolute;
+    left: 155px;
+    bottom: 69px;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#sns_icon_04 {
+    position: absolute;
+    left: 188px;
+    bottom: 69px;
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transition: all 1s ease-in-out;
+}
+
+#sns_icon_04:hover {
+    position: absolute;
+    left: 188px;
+    bottom: 69px;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+#reve_menu {
+    position: absolute;
+    right: 113px;
+    bottom: 64px;
+}
+
+.menu2 {
+    position: absolute;
+    left: 337px;
+}
+
+.menu2 > li {
+    float: left;
+    height: 39px;
+    /*margin-right: 10px;*/
+}
+
+
+#text_black_01 {
+    position: absolute;
+    top: 240px;
+}
+
+
+#text_black_02 {
+    position: absolute;
+    top: 365px;
+}
+
+#text_black_03 {
+    position: absolute;
+    top: 490px;
+}
+
+#text_black_04 {
+    position: absolute;
+    top: 615px;
+}
+
+#text_black_05 {
+    position: absolute;
+    top: 740px;
+}
+
+/*서브메뉴*/
+
+#sub_menu {
+    position: fixed;
+    left: 63px;
+    z-index: 600;
+    display: block;
+    transition: all linear;
+}
+
+#sub_small > li {
+    list-style:none;
+}
+
+#sub_menu.out {
+    opacity: 0;
+}
+
+#sub_menu.close {
+    opacity: 0;
+}
+
+#menu_title_00 {
+    position: fixed;
+    top: 235px;
+    left: 63px;
+}
+
+#sub_menu01 {
+    position: fixed;
+    z-index: 700;
+    top: 608px;
+    left: 63px;
+    transition: all 0.5s linear;
+}
+#sub_menu01.on {
+    transform: translateY(-250px);
+}
+
+#sub_menu02 {
+    position: fixed;
+    z-index: 9997;
+    top: 688px;
+    left: 63px;
+    transition: all 0.5s linear;
+}
+
+#sub_menu02.on {
+    transform: translateY(-260px);
+}
+
+#sub_menu03 {
+    position: fixed;
+    z-index: 700;
+    top: 766px;
+    left: 63px;
+    transition: all 0.5s linear;
+    /*background: url("../images/main/zimzalbim/music_video_03.png")no-repeat;*/
+}
+
+#sub_menu03.on {
+    transform: translateY(-265px);
+}
+
+#sub_menu04 {
+    position: fixed;
+    z-index: 700;
+    top: 843px;
+    left: 63px;
+    transition: all 0.5s linear;
+}
+
+#sub_menu04.on {
+    transform: translateY(-270px);
+}
+
+
+/*상단첫시작*/
+
+#section01 {
+    width: 1920px;
+    height: 980px;
+    background: #fff369;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+    /*background: url("../images/main/zimzalbim/top_main.jpg") no-repeat;*/
+}
+
+
+#fullpage > section {
+    height: 980px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+}
+
+#fullpage > section {
+    height: 980px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+}
+
+/*상단첫시작*/
+
+#section01 {
+    width: 1920px;
+    height: 980px;
+    background: #b3fd9f;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+}
+
+#section01 .cir_img {
+    position: absolute;
+    z-index: 999999;
+    width: 100%;
+    height: 980px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #b3fd9f;
+    clip-path: circle(5px at 2200px 300px);
+    background: url("../images/main/psycho/top_main_01.png")no-repeat center;
+    opacity: 0;
+}
+
+#section01 .cir_img.on {
+    clip-path: none;
+    animation: ani07 linear 1.5s;
+    opacity: 1;
+}
+
+#section01 .cir_img #scroll_down {
+    position: absolute;
+    left: 904px;
+    top: 648px;
+    /*transform: translate(-50%);*/
+    animation: rotate 5.5s linear infinite;
+}
+
+@keyframes rotate {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg )}
+}
+
+#section01 .cir_img > img {
+    position : absolute;
+    left: 0;
+    top: 0;
+
+}
+
+#section01 .cir_img .frame {
+    width: 100%;
+    height: 100%;
+    transition: all 0.7s;
+    opacity : 1;
+    clip-path: circle(5px at 2200px 300px);
+}
+
+#section01 .cir_img .frame.on {
+    opacity : 0;
+}
+
+#section01 .cir_img > img:nth-child(2){
+    position : absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all linear 0.35s;
+}
+
+#section01 .cir_img > img:nth-child(2).on {
+    opacity: 1;
+}
+
+@keyframes ani07 {
+    0% {
+        clip-path: circle(5px at 920px 520px);
+        opacity: 0;
+    }
+    1% {opacity: 1;}
+
+    100% {
+        clip-path: circle(2100px at 1100px 400px);
+        /*clip-path: circle(2500px at 1200px 500px);*/
+    }
+}
+
+/*앨범소개*/
+
+#section02 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+    background: url("../images/main/psycho/psycho_bg_01.jpg") no-repeat;
+}
+
+#album_img01 {
+    position: absolute;
+    left: 544px;
+    top: 358px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.1s;
+}
+
+#album_img01.on {
+    opacity: 1;
+}
+
+#reve_bag {
+    position: absolute;
+    right: 305px;
+    top: 118px;
+    opacity : 0;
+    transition: all 0.7s;
+    transition-delay: 0.7s;
+}
+
+#reve_bag.on {
+    opacity: 1;
+}
+
+#whiteline_01 {
+    position: absolute;
+    right: 0;
+    top: 334px;
+}
+
+#title_01 {
+    width: 314px;
+    height: 29px;
+    position: absolute;
+    right: 205px;
+    top: 356px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.9s;
+    background: url("../images/main/psycho/album_title_02.png")no-repeat;
+}
+
+#title_01.on {
+    opacity: 1;
+}
+
+#text01 {
+    position: absolute;
+    right: 71px;
+    top: 431px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1s;
+}
+
+#text01.on {
+    opacity: 1;
+}
+
+#festival {
+    position: absolute;
+    left: 703px;
+    top: 270px;
+    opacity : 0;
+    transition: all 0.7s;
+    transition-delay: 0.1s;
+}
+
+#festival.on {
+    opacity: 1;
+}
+
+/*트랙1*/
+
+#section03 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 900;
+    background: url("../images/main/psycho/psycho_bg_02.png");
+}
+
+
+#album_img02 {
+    position: absolute;
+    right: 122px;
+    top: 109px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.6s;
+}
+
+#album_img02.on {
+    opacity: 1;
+}
+
+#title_02 {
+    width: 119px;
+    height: 29px;
+    position: absolute;
+    left: 469px;
+    top: 197px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.1s;
+    background: url("../images/main/zimzalbim/Zimzalabim_title_02_1.png")no-repeat;
+}
+
+#title_02.on {
+    opacity: 1;
+}
+
+#black_line {
+    position: absolute;
+    left: 490px;
+    top: 165px;
+}
+
+#psycho {
+    position: absolute;
+    right: 656px;
+    top: 474px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.7s;
+}
+
+#psycho.on {
+    opacity: 1;
+}
+
+#text_02 {
+    position: absolute;
+    left: 481px;
+    top: 363px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.3s;
+}
+
+#text_02.on {
+    opacity: 1;
+}
+
+#text_03 {
+    position: absolute;
+    left: 483px;
+    top: 481px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.5s;
+}
+
+#text_03.on {
+    opacity: 1;
+}
+
+
+/*트랙2*/
+
+#section04 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background: url("../images/main/psycho/psycho_bg_03.png") no-repeat;
+}
+
+#title_03 {
+    width: 280px;
+    height: 85px;
+    position: absolute;
+    left: 583px;
+    top: 114px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.2s;
+    z-index: 500;
+    background: url("../images/main/psycho/track_title.png")no-repeat;
+}
+
+#title_03.on {
+    opacity: 1;
+}
+
+#white_line_02 {
+    position: absolute;
+    left: 602px;
+    top: 67px;
+}
+#section04 .sound_btn {
+    width: 64px;
+    height: 64px;
+    position : absolute;
+    right: 269px;
+    top: 520px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.5s;
+    cursor: pointer;
+}
+
+#section04 .sound_btn.on {
+    opacity: 1;
+}
+
+#section04 .sound_btn > img{
+    position : absolute;
+    left: 0;
+    top: 0;
+}
+
+#section04 .sound_btn > img:nth-child(1){
+    display: none;
+}
+
+#redvelvet_text {
+    width: 119px;
+    height: 19px;
+    position: absolute;
+    left: 606px;
+    top: 225px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.2s;
+    z-index: 500;
+    background: url("../images/main/zimzalbim/red_velvet_text_01.png")no-repeat;
+}
+
+#redvelvet_text.on {
+    opacity: 1;
+}
+
+#track_list {
+    width: 76px;
+    height: 15px;
+    position: absolute;
+    left: 606px;
+    top: 290px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1s;
+    z-index: 500;
+    background: url("../images/main/psycho/tracklist_03.png")no-repeat;
+}
+
+#track_list.on {
+    opacity: 1;
+}
+
+/*곡명시작*/
+
+#section04 .music {
+    list-style: none;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.2s;
+    cursor: pointer;
+}
+
+#section04 .music.on {
+    opacity: 1;
+}
+
+
+#music_01 {
+    width: 195px;
+    height: 18px;
+    position: absolute;
+    left: 606px;
+    top: 325px;
+    z-index: 1200;
+    background: url("../images/main/psycho/music_01.png") no-repeat;
+}
+
+#music_01.ch {
+    width: 195px;
+    height: 18px;
+    background: url("../images/main/psycho/music_01_1.png") no-repeat;
+}
+
+#music_02 {
+    position: absolute;
+    left: 606px;
+    top: 361px;
+}
+
+#music_03 {
+    position: absolute;
+    left: 606px;
+    top: 397px;
+}
+
+#music_04 {
+    position: absolute;
+    left: 606px;
+    top: 433px;
+}
+
+#music_05 {
+    position: absolute;
+    left: 606px;
+    top: 505px;
+}
+
+#music_06 {
+    position: absolute;
+    left: 606px;
+    top: 541px;
+}
+
+#music_07 {
+    position: absolute;
+    left: 606px;
+    top: 577px;
+}
+
+#music_08 {
+    position: absolute;
+    left: 606px;
+    top: 612px;
+}
+
+#music_09 {
+    position: absolute;
+    left: 606px;
+    top: 648px;
+}
+
+#music_10 {
+    position: absolute;
+    left: 606px;
+    top: 685px;
+}
+
+#music_11 {
+    position: absolute;
+    left: 606px;
+    top: 720px;
+}
+
+#music_12 {
+    position: absolute;
+    left: 606px;
+    top: 756px;
+}
+
+#music_13 {
+    position: absolute;
+    left: 606px;
+    top: 793px;
+}
+
+#music_14 {
+    position: absolute;
+    left: 606px;
+    top: 829px;
+}
+
+#music_15 {
+    position: absolute;
+    left: 606px;
+    top: 863px;
+}
+
+#music_16 {
+    position: absolute;
+    left: 606px;
+    top: 900px;
+}
+
+#day {
+    width: 141px;
+    height: 25px;
+    position: absolute;
+    right: 191px;
+    top: 410px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.3s;
+    z-index: 500;
+    background: url("../images/main/psycho/day.png")no-repeat;
+}
+
+#day.on {
+    opacity: 1;
+}
+
+#repackage_album {
+    position: absolute;
+    right: 191px;
+    top: 453px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.3s;
+    z-index: 500;
+}
+
+#repackage_album.on {
+    opacity: 1;
+}
+
+#melon_btn {
+    position: absolute;
+    right: 183px;
+    top: 507px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.3s;
+}
+
+#melon_btn.on {
+    opacity: 1;
+}
+
+#genie_btn {
+    position: absolute;
+    right: 183px;
+    top: 545px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.3s;
+}
+
+#genie_btn.on {
+    opacity: 1;
+}
+
+#bugs_btn {
+    position: absolute;
+    right: 165px;
+    top: 578px;
+    z-index: 500;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.3s;
+}
+
+#bugs_btn.on {
+    opacity: 1;
+}
+
+#order_btn {
+    position: absolute;
+    right: 85px;
+    top: 664px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.7s;
+    z-index: 500;
+}
+
+#order_btn.on {
+    opacity: 1;
+}
+
+#music_btn {
+    position: absolute;
+    right: 250px;
+    top: 523px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.5s;
+    z-index: 500;
+}
+
+#music_btn.on {
+    opacity: 1;
+}
+
+
+#music_btn_play {
+    position: absolute;
+    right: 250px;
+    top: 523px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 1.5s;
+    z-index: 500;
+}
+
+#music_btn_play.on {
+    opacity: 1;
+}
+/*뮤직비디오*/
+
+#section05 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background: url("../images/main/psycho/psycho_bg_04.png") no-repeat;
+}
+
+#title_04 {
+    position: absolute;
+    left: 469px;
+    top: 205px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.2s;
+    z-index: 500;
+}
+
+#title_04.on {
+    opacity: 1;
+}
+
+.mv {
+    position: absolute;
+    left: 649px;
+    top: 292px;
+    z-index: 1200;
+    width: 1135px;
+    height: 638px;
+    overflow: hidden;
+}
+
+#mv_scroll_red {
+    width: 250px;
+    height: 248px;
+    position: absolute;
+    z-index: 1000;
+    left: 443px;
+    top: 195px;
+    list-style: none;
+    animation: rotate 6s linear infinite;
+}
+
+@keyframes rotate {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+
+#scroll_btn {
+    position: absolute;
+    left: 544px;
+    top: 283px;
+    cursor: pointer;
+    z-index: 1100;
+    transition: all 0.2s linear;
+}
+
+
+#mv_left {
+    width: 568px;
+    height: 638px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../images/main/psycho/mv_left_01.png")no-repeat left top;
+    transition: width 1s;
+}
+
+#mv_left.on {
+    width: 0;
+}
+
+#mv_right {
+    width: 568px;
+    height: 638px;
+    background: url("../images/main/psycho/mv_right_01.png")no-repeat right top;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 800;
+    transition: width 1s;
+}
+
+#mv_right.on {
+    width: 0;
+}
+
+/*갤러리*/
+
+#section06 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: green;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+    background: url("../images/main/psycho/psycho_bg_05.png") no-repeat;
+}
+
+#title_05 {
+    position: absolute;
+    left: 470px;
+    top: 202px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.2s;
+    z-index: 500;
+}
+
+#title_05.on {
+    opacity: 1;
+}
+
+
+#section06 .g_btn > li {
+    list-style: none;
+}
+
+#gallery_btn_left {
+    position: absolute;
+    left: 651px;
+    top: 880px;
+    z-index: 500;
+    cursor : pointer;
+    transition: all 1s linear;
+}
+
+#gallery_btn_right {
+    position: absolute;
+    left: 713px;
+    top: 880px;
+    z-index: 800;
+    cursor : pointer;
+    transition: all 1s linear;
+}
+
+/*#gallery_btn_right_02.slick-arrow {*/
+/*    transform: translate(0);*/
+/*}*/
+
+#gelley {
+    width: 1500px;
+    height: 552px;
+    position: absolute;
+    z-index: 500;
+    left: 651px;
+    top: 289px;
+}
+
+#gelley .slick-slide {
+    margin-left: 18px; !important;
+    transition: all 1s linear;
+    border: none; !important;
+    outline: none;
+}
+
+#gelley .slick-slide.slick-current{
+    opacity : 1;
+    border: none; !important;
+    outline: none;
+}
+
+#gelley .slick-dots {}
+#gelley .slick-dots li {}
+#gelley .slick-dots li button{
+    display: none;
+}
+
+#hold_drag_line_01 {
+    position: absolute;
+    left: 791px;
+    top: 889px;
+    z-index: 500;
+}
+
+#hold_drag_line_02 {
+    position: absolute;
+    left: 791px;
+    top: 889px;
+    z-index: 500;
+}
+
+#section06 .line {
+    width: 1050px;
+    height: 1.5px;
+    background: #7e7e7e;
+    position : absolute;
+    top: 889px;
+    left: 791px;
+}
+
+#section06 .line .bar {
+    width: 105px;
+    height: 1.5px;
+    background: #ff0000;
+}
+
+#hold_drag {
+    position: absolute;
+    left: 492px;
+    top: 497px;
+    z-index: 500;
+    animation: rotate 5.5s linear infinite;
+}
+
+@keyframes rotate {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+
+#rainbow {
+    position: absolute;
+    left: 208px;
+    bottom: 46px;
+    opacity: 0;
+    transition: all 0.7s;
+    transition-delay: 0.6s;
+}
+
+#rainbow.on {
+    opacity: 1;
+}
+
+#section07 {
+    width: 1920px;
+    height: 980px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background: url("../images/main/psycho/psycho_bg_06.jpg") no-repeat;
+}
+
+/*#footer,*/
+/*#footer .fp-tableCell {*/
+/*    height: 160px !important;*/
+/*    background: gray;*/
+/*}*/

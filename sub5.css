@@ -1,0 +1,290 @@
+/*고정메뉴*/
+body {
+    overflow: hidden;
+}
+
+/*#wrap {*/
+/*    position: relative;*/
+/*}*/
+
+/*#fix01 {*/
+/*    position: relative;*/
+/*    z-index: 9999;*/
+/*}*/
+
+#logo {
+    width: 106px;
+    height: 76px;
+    background: #ff0000;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    background: url("../images/common/header/logo.png") no-repeat;
+}
+
+#menu {
+    width: 72px;
+    height: 22px;
+    background: skyblue;
+    position: absolute;
+    right: 45px;
+    top: 65px;
+    z-index: 9999;
+    background: url("../images/common/header/menu.png") no-repeat;
+}
+#frofile {
+    position: absolute;
+    right: 644px;
+    top: 109px;
+    z-index: 300;
+}
+#name_circle {
+    position: absolute;
+    animation: rotate 5.5s linear infinite;
+    z-index: 300;
+}
+
+@keyframes rotate {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg )}
+}
+
+#white_line {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translate(-50%);
+    z-index: 300;
+}
+
+#duck {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+}
+
+/*아이린*/
+
+#photo_01 {
+    width: 1013px;
+    height: 980px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#color_01 {
+    width: 907px;
+    height: 980px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#name_01 {
+    position: absolute;
+    left: 1135px;
+    top: 284px;
+    z-index: 100;
+}
+
+#frofile_01 {
+    position: absolute;
+    left: 1156px;
+    top: 449px;
+    z-index: 100;
+}
+
+/*슬기*/
+
+#photo_02 {
+    width: 1013px;
+    height: 980px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#color_02 {
+    width: 907px;
+    height: 980px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#name_02 {
+    position: absolute;
+    left: 1135px;
+    top: 284px;
+    z-index: 100;
+}
+
+#frofile_02 {
+    position: absolute;
+    left: 1156px;
+    top: 449px;
+    z-index: 100;
+}
+
+/*웬디*/
+
+#photo_03 {
+    width: 1013px;
+    height: 980px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#color_03 {
+    width: 907px;
+    height: 980px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#name_03 {
+    position: absolute;
+    left: 1135px;
+    top: 284px;
+    z-index: 100;
+}
+
+#frofile_03 {
+    position: absolute;
+    left: 1156px;
+    top: 449px;
+    z-index: 100;
+}
+
+/*조이*/
+
+#photo_04 {
+    width: 1013px;
+    height: 980px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#color_04 {
+    width: 907px;
+    height: 980px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#name_04 {
+    position: absolute;
+    left: 1135px;
+    top: 284px;
+    z-index: 100;
+}
+
+#frofile_04 {
+    position: absolute;
+    left: 1156px;
+    top: 449px;
+    z-index: 100;
+}
+
+/*예리*/
+
+#photo_05 {
+    width: 1013px;
+    height: 980px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#color_05 {
+    width: 907px;
+    height: 980px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#name_05 {
+    position: absolute;
+    left: 1135px;
+    top: 284px;
+    z-index: 100;
+}
+
+#frofile_05 {
+    position: absolute;
+    left: 1156px;
+    top: 449px;
+    z-index: 100;
+}
+
+
+
+/*---------------------------------------------------*/
+#name_circle {
+    position: absolute;
+    right: 109px;
+    top: 415px;
+}
+
+#team {
+    position: absolute;
+    right: 689px;
+    bottom: 175px;
+    z-index: 300;
+}
+
+#small_img_01 {
+    position: absolute;
+    right: 711px;
+    bottom: 97px;
+    z-index: 300;
+}
+
+#small_img_02 {
+    position: absolute;
+    right: 635px;
+    bottom: 97px;
+    z-index: 300;
+}
+
+#small_img_03 {
+    position: absolute;
+    right: 560px;
+    bottom: 97px;
+    z-index: 300;
+}
+
+#small_img_04 {
+    position: absolute;
+    right: 484px;
+    bottom: 97px;
+    z-index: 300;
+}
+
+#small_img_05 {
+    position: absolute;
+    right: 411px;
+    bottom: 97px;
+    z-index: 300;
+}
+
+
+
